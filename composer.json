@@ -3,11 +3,6 @@
     "description": "Module for working with arrays",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Alenamau\\Collect\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "alenamau",
@@ -18,7 +13,13 @@
     "require": {
         "php": "^7.4 | ^8.0"
     },
-    "files": [
-        "src/helpers.php"
-    ]
+    "autoload": {
+        "psr-4": {
+            "Alenamau\\Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+
 }
